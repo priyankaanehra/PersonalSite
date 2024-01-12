@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
 import Contact from './Pages/Contact/Contact';
@@ -6,6 +5,7 @@ import About from './Pages/About/About';
 import Home from './Pages/Home/Home'
 
 function App() {
+  
   return (
     <>
       <Router>

@@ -1,6 +1,3 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import insta from '../../assets/bwinsta.png'
 import linkedin from '../../assets/linkedin.jpeg'
 import github from '../../assets/github-mark.png'
 import './Footer.css'

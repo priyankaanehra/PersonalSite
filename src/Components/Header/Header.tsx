@@ -1,8 +1,5 @@
-
-import React from 'react';
 import { Link } from 'react-router-dom';
 import linkedin from '../../assets/linkedin.jpeg'
-import hamburger from '../../assets/hamburger.png'
 import './Header.css'
 
 

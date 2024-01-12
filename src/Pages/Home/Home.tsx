@@ -1,12 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { useReactToPrint } from 'react-to-print';
 import linkedin from '../../assets/linkedin.jpeg'
 import './Home.css'
 import pn from '../../assets/pn.jpeg'
-import github from '../../assets/github.jpeg'
 import gh from '../../assets/github-mark.png'
-import bgpn from '../../assets/nobgpn.png'
 
 export default function Home(){
 
