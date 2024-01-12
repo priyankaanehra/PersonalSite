@@ -1,16 +1,30 @@
 .contactHeading{
     text-align: center;
-    color: rgb(60, 58, 58);;
+    color: rgb(60, 58, 58);
+    margin-bottom: 20px;
 }
-
-.submitbutton{
-    text-align: center;
-    padding: 20px 0px 30px 0px;
-}
-
 .mainContactLayout{
     font-family: "Oswald";
     margin: 0px 0px 0px 0px;
-    padding: 40px 200px 40px 150px;
-    margin-bottom: 205px;
+    padding: 40px 0px 40px 0px;
+    margin-bottom: 350px;
+    text-align: center;
+}
+.phone{
+    width:20px;
+    margin-right:5px;
+}
+.email{
+    width: 20px;
+    margin-right:5px;
+}
+.linkedinLogo{
+    width: 20px;
+    padding-bottom: 6px;
+    margin-right:5px;
+}
+.location{
+    width: 20px;
+    padding-bottom: 6px;
+    margin-right:5px;
 }

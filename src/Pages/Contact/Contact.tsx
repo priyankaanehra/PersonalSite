@@ -1,25 +1,14 @@
 import { Row, Col, Form, Button } from 'react-bootstrap';
 import './Contact.css'
+import phone from '../../assets/phone.png'
+import email from '../../assets/email.png'
+import linkedin from '../../assets/linkedin.jpeg'
+import location from '../../assets/location.png';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
-    
-  const [formData, setFormData] = useState({
-      name: '',
-      email: '',
-      message: '',
-    });
-    const handleChange = (e: { target: { name: any; value: any; }; }) => {
-      const { name, value } = e.target;
-      setFormData({ ...formData, [name]: value });
-    };
-  
-    const handleSubmit = (e: { preventDefault: () => void; }) => {
-      e.preventDefault();
-      // Handle the form submission here, e.g., send data to a server or perform other actions
-      console.log('Form data submitted:', formData);
-    };
-    
+   
   return (
     <div className='mainContactLayout'>
      <Row>
@@ -27,35 +16,18 @@ const Contact = () => {
         <h2>Contact Me</h2>
       </Col>
      </Row>
-
-      <Row>
-        <Col md={6}>
-          <Form onSubmit={handleSubmit}>
-            <Form.Group controlId="formName">
-              <Form.Label>Name</Form.Label>
-              <Form.Control type="text" placeholder="Enter your name" onChange={handleChange} />
-            </Form.Group>
-        
-          </Form>
-        </Col>
-        <Col md={6}>
-        <Form.Group controlId="formEmail">
-              <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="Enter your email" onChange={handleChange} />
-            </Form.Group>
-        </Col>
-      </Row>
       <Row>
         <Col>
-        <Form.Group controlId="formMessage">
-              <Form.Label>Message</Form.Label>
-              <Form.Control as="textarea" rows={3} placeholder="Type your message here" onChange={handleChange} />
-            </Form.Group>
-            <div className='submitbutton'>
-              <Button variant="primary" type="submit" className="btn btn-dark">
-                Submit
-              </Button>
-            </div>
+        <p>
+        <img src={location} alt="logo" className="location"/>
+                    New York, NY
+        </p>
+         <p><img src={phone} alt="phone" className="phone"/>  (804) 549 - 9819 </p>
+         <p><img src={email} alt="email" className="email"/>  priyankaanehra@gmail.com </p>
+         <p><Link to="https://www.linkedin.com/in/priyanka-nehra-94386b155/" target='_blank'>
+          <img src={linkedin} alt="email" className="linkedinLogo"/>  LinkedIn 
+          </Link>
+         </p>        
         </Col>
       </Row>
     </div>
