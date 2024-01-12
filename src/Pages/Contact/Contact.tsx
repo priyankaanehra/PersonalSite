@@ -22,7 +22,10 @@ const Contact = () => {
                     New York, NY
         </p>
          <p><img src={phone} alt="phone" className="phone"/>  (804) 549 - 9819 </p>
-         <p><img src={email} alt="email" className="email"/>  priyankaanehra@gmail.com </p>
+         <p>
+          <Link to="mailto:priyankaanehra@gmail.com?Subject="><img src={email} alt="email" className="email"/>
+            priyankaanehra@gmail.com 
+            </Link></p>
          <p><Link to="https://www.linkedin.com/in/priyanka-nehra-94386b155/" target='_blank'>
           <img src={linkedin} alt="email" className="linkedinLogo"/>  LinkedIn 
           </Link>
