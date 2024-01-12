@@ -23,7 +23,9 @@ export default function Home(){
                     
                     <p className='jobtitle'>Software Engineer</p>
                     <p className='jobtitle'>Hobbies: Photography, running, biking</p>
+                    <a href="/About">
                     <button className='resumebutton' title="Download Resume">Resume</button>
+                    </a>
                 </div>
             </div>
         </div>
