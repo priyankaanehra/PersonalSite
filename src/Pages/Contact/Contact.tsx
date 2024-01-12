@@ -1,10 +1,9 @@
-import { Row, Col, Form, Button } from 'react-bootstrap';
+import { Row, Col} from 'react-bootstrap';
 import './Contact.css'
 import phone from '../../assets/phone.png'
 import email from '../../assets/email.png'
 import linkedin from '../../assets/linkedin.jpeg'
 import location from '../../assets/location.png';
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
