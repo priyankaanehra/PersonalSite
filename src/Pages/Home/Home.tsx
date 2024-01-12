@@ -2,6 +2,7 @@ import linkedin from '../../assets/linkedin.jpeg'
 import './Home.css'
 import pn from '../../assets/pn.jpeg'
 import gh from '../../assets/github-mark.png'
+import { Link } from 'react-router-dom'
 
 export default function Home(){
 
@@ -23,9 +24,9 @@ export default function Home(){
                     
                     <p className='jobtitle'>Software Engineer</p>
                     <p className='jobtitle'>Hobbies: Photography, running, biking</p>
-                    <a href="../About">
+                    <Link to="/about">
                     <button className='resumebutton'>Resume</button>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
