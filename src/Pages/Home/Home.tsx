@@ -2,6 +2,7 @@ import linkedin from '../../assets/linkedin.jpeg'
 import './Home.css'
 import pn from '../../assets/pn.jpeg'
 import gh from '../../assets/github-mark.png'
+import location from '../../assets/location.png'
 import { Link } from 'react-router-dom'
 
 export default function Home(){
@@ -13,6 +14,10 @@ export default function Home(){
                     <img src={pn} alt="pn" className="pnpic"/>
                 </div>
                 <div className='homebox col'>
+                    <p className='locationNY'>
+                    <img src={location} alt="logo" className="locationimg"/>
+                    New York, NY
+                    </p>
                     <h1 className='homename'>Priyanka Nehra
                     <span><a href="https://github.com/priyankaanehra" target='_blank'>
                             <img src={gh} alt="logo" className="githubimg"/>

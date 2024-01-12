@@ -18,6 +18,13 @@
     margin-right: 5px;
     
 }
+.locationimg{
+    height: 20px;
+    margin-bottom: 3px;
+    width: auto;
+    margin-right: 5px;
+    
+}
 .linkedinimg{
     height: 34px;
     width: auto;
@@ -51,4 +58,8 @@
 .resumebutton{
     border: 2px solid rgb(60, 58, 58);
     color: rgb(60, 58, 58);
+}
+
+.locationNY{
+    margin-bottom: 0px;
 }
