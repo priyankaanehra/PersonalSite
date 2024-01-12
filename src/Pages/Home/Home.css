@@ -1,0 +1,54 @@
+
+.pnpic{
+    border-radius: 50%;
+    height: 450px;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 110px;
+    margin-right: 10px;
+    opacity: 90%;
+    border: 1px solid rgb(60, 58, 58);
+
+}
+.githubimg{
+    margin-left: 10px;
+    height: 35px;
+    margin-bottom: 3px;
+    width: auto;
+    margin-right: 5px;
+    
+}
+.linkedinimg{
+    height: 34px;
+    width: auto;
+    margin-bottom: 1px;
+    opacity: 85%;
+
+}
+
+.homebox{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.jobtitle{
+    font-family: "Oswald", serif;
+    color: rgb(60, 58, 58);
+    font-size: 20px;
+}
+.homename{
+    font-weight: 400;
+    font-family: "Oswald", serif;
+    color: rgb(60, 58, 58);
+    font-size: 55px;
+    padding-bottom: 10px;
+    border-bottom:3px dotted rgb(60, 58, 58);;
+    width:fit-content;
+}
+
+.resumebutton{
+    border: 2px solid rgb(60, 58, 58);
+    color: rgb(60, 58, 58);
+}
