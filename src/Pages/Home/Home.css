@@ -59,6 +59,9 @@
     border: 2px solid rgb(60, 58, 58);
     color: rgb(60, 58, 58);
 }
+.resumebutton:hover{
+    background-color: beige;
+}
 
 .locationNY{
     margin-bottom: 0px;
