@@ -1,5 +1,7 @@
 .mainlayout{
-    background-color: #DEDBE3;
+    /* background-color: #f3f7cf; */
+    background: linear-gradient(45deg, #7e91bc, #E4EfE9);
+    
     margin-top: 0px;
     /* height:100vh; */
 }
