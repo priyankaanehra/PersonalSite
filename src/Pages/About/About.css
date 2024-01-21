@@ -1,12 +1,13 @@
 .aboutLayout{
     padding: 20px 300px;
-    font-family:'Times New Roman', Times, serif
+    font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 }
 
 .resumeTitle{
-    border-bottom: .5px solid black;
-    font-weight: 800;
+    border-bottom: .8px solid black;
     text-align: center;
+    font-size: 22px;
+    font-family: Helvetica;
     
 }
 
